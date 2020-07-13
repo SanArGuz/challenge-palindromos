@@ -13,6 +13,9 @@ function palindromo() {
 }
 
 function compareArray(a, b){
+    if(a.length == 0){
+        return false
+    }
     for (i in a) {
         if (a[i] != b[i]) {
             return false
