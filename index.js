@@ -16,8 +16,7 @@ function compareArray(a, b){
     for (i in a) {
         if (a[i] != b[i]) {
             return false
-        } else {
-            return true
-        }
+        } 
     }
+    return true
 }
