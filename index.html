@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Palindromo</title>
+</head>
+
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand">
+            <img src="https://img.icons8.com/color/48/000000/dictionary.png" width="30" height="30"
+                class="d-inline-block align-top" alt="" loading="lazy" />
+            Coincidencia escrita
+        </a>
+    </nav>
+    <div class="container">
+        <div class="column">
+            <div class="row">
+                <h1 class="mx-auto mt-5">¿Es un Palindromo?</h1>
+            </div>
+            <div class="row mt-3">
+                <p>
+                    Un palíndromo (del griego palin dromein, ‘volver a ir atrás’), es
+                    una palabra o frase que se lee igual en un sentido que en otro (por ejemplo, Ana).
+                </p>
+            </div>
+            <div class="row mt-3">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Cadena a comparar</span>
+                    </div>
+                    <textarea id="cadena"  class="form-control" aria-label="With textarea"></textarea>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <a id="send" class="btn btn-secondary brn-lg mx-auto modal-in mt-5" onclick="palindromo()" href="#" role="button"
+                    style="width: 200px;">Enviar</a>
+            </div>
+            <div id="result-container" class="row mt-5">
+                <p id="result" class="mx-auto"></p>
+            </div>
+        </div>
+        <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hecho por Sanarguz <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Twitter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://www.github.com/sanarguz">Github</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
