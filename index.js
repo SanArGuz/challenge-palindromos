@@ -19,7 +19,7 @@ function compareArray(a, b){
     for (i in a) {
         if (a[i] != b[i]) {
             return false
-        } 
+        }
     }
     return true
 }
