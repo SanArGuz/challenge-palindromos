@@ -1,6 +1,5 @@
 function palindromo() {
     const A = getArray() //get input trim spaces and transform to lowercase in an array
-    console.log(A)
     const B = A.slice() //copy array A in B
     A.reverse()         //reverse array A
     
